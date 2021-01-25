@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-01-25T02:52:04.075Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="njvcmD9oJN5G0z9GvwqO" version="14.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-25T03:25:25.778Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="EbTCfJaseP02c_8HgnRx" version="14.2.6" type="github">
   <diagram name="Page-1" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="940" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="69" value="" style="fillColor=#DEE8FF;strokeColor=none" parent="1" vertex="1">
-          <mxGeometry x="10" y="10" width="920" height="800" as="geometry" />
+          <mxGeometry x="10" y="10" width="950" height="800" as="geometry" />
         </mxCell>
         <mxCell id="2" value="" style="fillColor=#CC4125;strokeColor=#660000" parent="1" vertex="1">
           <mxGeometry x="200" y="150" width="10" height="130" as="geometry" />
@@ -21,7 +21,7 @@
           <mxGeometry x="152.5" y="60" width="105" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6" value="" style="fillColor=#CC4125;strokeColor=#660000" parent="1" vertex="1">
-          <mxGeometry x="350" y="179.56" width="10" height="130.44" as="geometry" />
+          <mxGeometry x="352.5" y="179.56" width="10" height="130.44" as="geometry" />
         </mxCell>
         <mxCell id="7" value="BulkRequestHandler" style="shadow=1;fillColor=#A2C4C9;strokeColor=none" parent="1" vertex="1">
           <mxGeometry x="295" y="60" width="125" height="50" as="geometry" />
@@ -59,25 +59,16 @@
             <mxPoint x="360" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="42" value="" style="fillColor=#CC4125;strokeColor=#660000" parent="1" vertex="1">
-          <mxGeometry x="200" y="360" width="10" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="48" value="" style="fillColor=#CC4125;strokeColor=#660000" parent="1" vertex="1">
-          <mxGeometry x="342.5" y="464.1666666666667" width="10" height="95.83333333333331" as="geometry" />
-        </mxCell>
-        <mxCell id="52" value="" style="edgeStyle=none;endArrow=none;dashed=1" parent="1" source="6" target="48" edge="1">
+        <mxCell id="52" value="" style="edgeStyle=none;endArrow=none;dashed=1;" parent="1" source="6" edge="1">
           <mxGeometry x="376.5711805555559" y="339.6971450617284" width="100" height="100" as="geometry">
             <mxPoint x="451.7361111111112" y="284.6971450617284" as="sourcePoint" />
-            <mxPoint x="451.7361111111112" y="464.0914351851852" as="targetPoint" />
+            <mxPoint x="360" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="71" value="ES Rest Client BulkIndex" style="rounded=1;fontStyle=1;fillColor=#FFD966;strokeColor=none" parent="1" vertex="1">
           <mxGeometry x="50" y="20" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="72" value="opt" style="rounded=1;fontStyle=1;fillColor=#FFD966;strokeColor=none" parent="1" vertex="1">
-          <mxGeometry x="152.5" y="420" width="87.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="MSCGjZI9HMd1GqQaS4Cn-92" value="execute()" style="edgeStyle=elbowEdgeStyle;elbow=vertical;verticalLabelPosition=top;verticalAlign=bottom;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="6">
+        <mxCell id="MSCGjZI9HMd1GqQaS4Cn-92" value="execute()" style="edgeStyle=elbowEdgeStyle;elbow=vertical;verticalLabelPosition=top;verticalAlign=bottom;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="6" edge="1">
           <mxGeometry width="100" height="100" as="geometry">
             <mxPoint x="240.00395061728386" y="180.17000000000002" as="sourcePoint" />
             <mxPoint x="390.22" y="180.17000000000002" as="targetPoint" />
@@ -88,7 +79,7 @@
             <mxPoint x="38" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MSCGjZI9HMd1GqQaS4Cn-111" value="withBackoff()" style="edgeStyle=elbowEdgeStyle;elbow=vertical;verticalLabelPosition=top;verticalAlign=bottom;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="21">
+        <mxCell id="MSCGjZI9HMd1GqQaS4Cn-111" value="withBackoff()" style="edgeStyle=elbowEdgeStyle;elbow=vertical;verticalLabelPosition=top;verticalAlign=bottom;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6" target="21" edge="1">
           <mxGeometry width="100" height="100" as="geometry">
             <mxPoint x="470" y="282.94" as="sourcePoint" />
             <mxPoint x="612.5" y="279.99999999999994" as="targetPoint" />
@@ -99,15 +90,35 @@
             <mxPoint x="191" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MSCGjZI9HMd1GqQaS4Cn-112" value="execute()" style="edgeStyle=elbowEdgeStyle;elbow=vertical;verticalLabelPosition=top;verticalAlign=bottom;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="21" target="21">
+        <mxCell id="MSCGjZI9HMd1GqQaS4Cn-112" value="execute()" style="edgeStyle=elbowEdgeStyle;elbow=vertical;verticalLabelPosition=top;verticalAlign=bottom;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="21" target="21" edge="1">
           <mxGeometry width="100" height="100" as="geometry">
             <mxPoint x="820" y="312.94" as="sourcePoint" />
             <mxPoint x="962.5" y="309.99999999999994" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="920" y="350" />
+              <mxPoint x="890" y="360" />
               <mxPoint x="920.22" y="310.61" />
             </Array>
-            <mxPoint x="63" y="11" as="offset" />
+            <mxPoint x="43" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hd3c7HCv7juLDMUy-7w1-75" value="onResponse()&#xa;&#xa;scheduler retry()" style="edgeStyle=elbowEdgeStyle;elbow=vertical;verticalLabelPosition=top;verticalAlign=bottom;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="21" target="21">
+          <mxGeometry width="100" height="100" as="geometry">
+            <mxPoint x="817.5" y="342.5" as="sourcePoint" />
+            <mxPoint x="817.5" y="395" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="910" y="470" />
+              <mxPoint x="930.22" y="320.61" />
+            </Array>
+            <mxPoint x="53" y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hd3c7HCv7juLDMUy-7w1-76" value="scheduler只有1个core thread -- oops！卡死了！&#xa;&#xa;retry任务一直等待空闲线程才能执行，scheduler flush一直等待&#xa;retry任务之前完才释放线程。" style="shape=note;align=left" vertex="1" parent="1">
+          <mxGeometry x="380" y="410" width="350" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hd3c7HCv7juLDMUy-7w1-77" value="" style="edgeStyle=none;endArrow=none;dashed=1;entryX=0;entryY=0;entryDx=350;entryDy=75;entryPerimeter=0;" edge="1" parent="1" target="Hd3c7HCv7juLDMUy-7w1-76">
+          <mxGeometry x="1040" y="190" width="100" height="100" as="geometry">
+            <mxPoint x="830" y="460" as="sourcePoint" />
+            <mxPoint x="370" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
