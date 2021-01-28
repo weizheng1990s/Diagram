@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-28T07:53:00.225Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="8YnmMq7Wht5adULye9oH" version="14.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-28T07:58:30.460Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="bQu5C7zpz4J9kcxTf81H" version="14.2.6" type="github">
   <diagram id="VYN1JjxY8SPIQtHlh5-8" name="Page-1">
     <mxGraphModel dx="940" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,10 +11,10 @@
           <mxGeometry x="240" y="240" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iJc54vKGov-CWWWgFmg2-3" value="Primary Data Node" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="450" y="150" width="60" height="80" as="geometry" />
+          <mxGeometry x="450" y="170" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iJc54vKGov-CWWWgFmg2-4" value="Primary Data Node" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="450" y="330" width="60" height="80" as="geometry" />
+          <mxGeometry x="450" y="310" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iJc54vKGov-CWWWgFmg2-6" value="Backup Data Node" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="600" y="90" width="60" height="80" as="geometry" />
@@ -23,10 +23,10 @@
           <mxGeometry x="600" y="180" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iJc54vKGov-CWWWgFmg2-10" value="Backup Data Node" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="600" y="310" width="60" height="80" as="geometry" />
+          <mxGeometry x="600" y="290" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iJc54vKGov-CWWWgFmg2-11" value="Backup Data Node" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="600" y="400" width="60" height="80" as="geometry" />
+          <mxGeometry x="600" y="380" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iJc54vKGov-CWWWgFmg2-12" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iJc54vKGov-CWWWgFmg2-1" target="iJc54vKGov-CWWWgFmg2-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -34,9 +34,9 @@
             <mxPoint x="210" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iJc54vKGov-CWWWgFmg2-23" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iJc54vKGov-CWWWgFmg2-12">
+        <mxCell id="iJc54vKGov-CWWWgFmg2-23" value="1 request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iJc54vKGov-CWWWgFmg2-12">
           <mxGeometry x="0.5" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-20" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iJc54vKGov-CWWWgFmg2-13" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iJc54vKGov-CWWWgFmg2-2" target="iJc54vKGov-CWWWgFmg2-4">
@@ -56,9 +56,9 @@
             <mxPoint x="440" y="279.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iJc54vKGov-CWWWgFmg2-22" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iJc54vKGov-CWWWgFmg2-14">
-          <mxGeometry x="0.2088" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="iJc54vKGov-CWWWgFmg2-30" value="2 Index&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iJc54vKGov-CWWWgFmg2-14">
+          <mxGeometry x="0.2647" y="-2" relative="1" as="geometry">
+            <mxPoint x="-18.14" y="5.49" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iJc54vKGov-CWWWgFmg2-15" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="iJc54vKGov-CWWWgFmg2-3" target="iJc54vKGov-CWWWgFmg2-9">
@@ -78,9 +78,9 @@
             <mxPoint x="470" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iJc54vKGov-CWWWgFmg2-24" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iJc54vKGov-CWWWgFmg2-16">
+        <mxCell id="iJc54vKGov-CWWWgFmg2-24" value="3 replication" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iJc54vKGov-CWWWgFmg2-16">
           <mxGeometry x="0.3436" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-20.18" y="1.33" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iJc54vKGov-CWWWgFmg2-17" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="iJc54vKGov-CWWWgFmg2-4" target="iJc54vKGov-CWWWgFmg2-11">
@@ -105,10 +105,15 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iJc54vKGov-CWWWgFmg2-19" value="4" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.058;exitY=0.738;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.925;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iJc54vKGov-CWWWgFmg2-2" target="iJc54vKGov-CWWWgFmg2-1">
+        <mxCell id="iJc54vKGov-CWWWgFmg2-19" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.058;exitY=0.738;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.925;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iJc54vKGov-CWWWgFmg2-2" target="iJc54vKGov-CWWWgFmg2-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="300" as="sourcePoint" />
             <mxPoint x="160" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iJc54vKGov-CWWWgFmg2-29" value="4 ack" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iJc54vKGov-CWWWgFmg2-19">
+          <mxGeometry x="0.2251" y="-2" relative="1" as="geometry">
+            <mxPoint x="10.06" y="12.37" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
