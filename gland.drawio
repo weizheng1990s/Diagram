@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-24T06:27:29.357Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.3 Safari/605.1.15" etag="_GmhoXZQGiG5nyBTQ-gA" version="14.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-24T06:32:16.198Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.3 Safari/605.1.15" etag="oK_m2eHZwMJPUfyrPbZl" version="14.5.8" type="github">
   <diagram id="4PpXCW7olVrxSZSKQI_L" name="Page-1">
     <mxGraphModel dx="1064" dy="744" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,6 +21,24 @@
         </mxCell>
         <mxCell id="b-yw0zgqSB7hZuDckbPi-6" value="&lt;font style=&quot;font-size: 36px&quot;&gt;中央商品库商品变更流水查询&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="16" y="25" width="473" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="b-yw0zgqSB7hZuDckbPi-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="393" y="561" width="210" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="b-yw0zgqSB7hZuDckbPi-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="393" y="634" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b-yw0zgqSB7hZuDckbPi-16" value="&lt;font style=&quot;font-size: 24px&quot;&gt;catalogId:&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="561" width="115" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="b-yw0zgqSB7hZuDckbPi-17" value="&lt;font style=&quot;font-size: 24px&quot;&gt;externalSkuId:&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="197" y="636" width="166" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="b-yw0zgqSB7hZuDckbPi-18" value="&lt;font size=&quot;4&quot;&gt;重新打标&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9AC7BF;" vertex="1" parent="1">
+          <mxGeometry x="668" y="633" width="95" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="b-yw0zgqSB7hZuDckbPi-19" value="&lt;font style=&quot;font-size: 36px&quot;&gt;中央商品库人工触发重新打标&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="33" y="402" width="473" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
