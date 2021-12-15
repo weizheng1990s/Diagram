@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T14:08:56.429Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.3 Safari/605.1.15" etag="hoQfcEavbLH19rYZUwv7" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-15T14:11:05.231Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.3 Safari/605.1.15" etag="eXnS2DN5BkpeQ_jd6fR2" version="15.8.2" type="github">
   <diagram id="6I0OCvxSQrVGMHxT2VVA" name="Page-1">
     <mxGraphModel dx="2388" dy="5316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -653,16 +653,11 @@
         <mxCell id="WTHkKFWmbe6p0qAKydqg-1" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="-120" y="-4220" width="910" height="510" as="geometry" />
         </mxCell>
-        <mxCell id="WTHkKFWmbe6p0qAKydqg-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="WTHkKFWmbe6p0qAKydqg-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-610" y="-4090" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="WTHkKFWmbe6p0qAKydqg-2" value="&lt;i&gt;中央商品库&lt;br&gt;在线核心存储TDSQL&lt;/i&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=node;archiType=square;strokeWidth=3;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="-700.71" y="-4095" width="170" height="60" as="geometry" />
+          <mxGeometry x="-700.71" y="-3995" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WTHkKFWmbe6p0qAKydqg-3" value="&lt;i&gt;TDSQL&lt;br&gt;灾备集群&lt;/i&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=node;archiType=square;strokeWidth=3;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="-700" y="-3970" width="170" height="40" as="geometry" />
+        <mxCell id="WTHkKFWmbe6p0qAKydqg-3" value="&lt;i&gt;TDSQL灾备集群&lt;/i&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=node;archiType=square;strokeWidth=3;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="-700.71" y="-3810" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WTHkKFWmbe6p0qAKydqg-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="WTHkKFWmbe6p0qAKydqg-2" target="WTHkKFWmbe6p0qAKydqg-3">
           <mxGeometry relative="1" as="geometry">
@@ -674,7 +669,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WTHkKFWmbe6p0qAKydqg-6" value="CKafka" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="-4095" width="107" height="60" as="geometry" />
+          <mxGeometry x="-407" y="-3995" width="107" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WTHkKFWmbe6p0qAKydqg-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WTHkKFWmbe6p0qAKydqg-2" target="WTHkKFWmbe6p0qAKydqg-6">
           <mxGeometry relative="1" as="geometry">
@@ -689,7 +684,7 @@
           <mxGeometry x="-120" y="-4350" width="910" height="70" as="geometry" />
         </mxCell>
         <mxCell id="WTHkKFWmbe6p0qAKydqg-10" value="实例 n" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-114.29" y="-3580" width="908.5" height="60" as="geometry" />
+          <mxGeometry x="-118.5" y="-3640" width="908.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WTHkKFWmbe6p0qAKydqg-14" value="tdsql" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#ffe6cc;align=center;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="110.5" y="-3875" width="45" height="75" as="geometry" />
@@ -697,7 +692,7 @@
         <mxCell id="WTHkKFWmbe6p0qAKydqg-16" value="product Buffer 1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="302" y="-4150" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WTHkKFWmbe6p0qAKydqg-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WTHkKFWmbe6p0qAKydqg-6" target="WTHkKFWmbe6p0qAKydqg-25">
+        <mxCell id="WTHkKFWmbe6p0qAKydqg-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WTHkKFWmbe6p0qAKydqg-6" target="WTHkKFWmbe6p0qAKydqg-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-270" y="-4030" as="sourcePoint" />
             <mxPoint x="-220" y="-4080" as="targetPoint" />
@@ -708,6 +703,7 @@
             <mxPoint x="-286.5" y="-4055" as="sourcePoint" />
             <mxPoint x="-124" y="-4055" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="-240" y="-3965" />
               <mxPoint x="-240" y="-4065" />
               <mxPoint x="-240" y="-4315" />
             </Array>
@@ -718,8 +714,8 @@
             <mxPoint x="-286.5" y="-4055" as="sourcePoint" />
             <mxPoint x="-124" y="-4055" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-240" y="-4065" />
-              <mxPoint x="-240" y="-3550" />
+              <mxPoint x="-240" y="-3965" />
+              <mxPoint x="-240" y="-3610" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -870,7 +866,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WTHkKFWmbe6p0qAKydqg-74" value="以partition为标记重试补偿" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="-3990" width="100" height="27.5" as="geometry" />
+          <mxGeometry x="150" y="-3990" width="100" height="27.5" as="geometry" />
         </mxCell>
         <mxCell id="WTHkKFWmbe6p0qAKydqg-77" value="智妍监控告警" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="93" y="-3750" width="80" height="40" as="geometry" />
@@ -885,7 +881,7 @@
           <mxGeometry x="70" y="-3792.5" width="150" height="17.5" as="geometry" />
         </mxCell>
         <mxCell id="WTHkKFWmbe6p0qAKydqg-81" value="spark任务触发&lt;br&gt;商品库维度批量商品流水" style="ellipse;whiteSpace=wrap;html=1;dashed=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-685" y="-4220" width="140" height="70" as="geometry" />
+          <mxGeometry x="-685.71" y="-4130" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="WTHkKFWmbe6p0qAKydqg-82" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WTHkKFWmbe6p0qAKydqg-81" target="WTHkKFWmbe6p0qAKydqg-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -903,16 +899,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WTHkKFWmbe6p0qAKydqg-87" value="spark任务&lt;br&gt;离线标签填充检查告警" style="ellipse;whiteSpace=wrap;html=1;dashed=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-685.0000000000001" y="-3890" width="140" height="70" as="geometry" />
+          <mxGeometry x="-685.71" y="-3700" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WTHkKFWmbe6p0qAKydqg-88" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.751;entryY=0.917;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WTHkKFWmbe6p0qAKydqg-14" target="WTHkKFWmbe6p0qAKydqg-2">
+        <mxCell id="WTHkKFWmbe6p0qAKydqg-88" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WTHkKFWmbe6p0qAKydqg-14" target="WTHkKFWmbe6p0qAKydqg-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-160" y="-3840" as="sourcePoint" />
             <mxPoint x="-110" y="-3890" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-490" y="-3837" />
-              <mxPoint x="-490" y="-4000" />
-              <mxPoint x="-573" y="-4000" />
+              <mxPoint x="-573" y="-3837" />
             </Array>
           </mxGeometry>
         </mxCell>
