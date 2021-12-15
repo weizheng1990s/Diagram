@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T14:00:42.244Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.3 Safari/605.1.15" etag="wIJ5L0nnFTGMEibWBmM0" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-15T14:00:46.659Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.3 Safari/605.1.15" etag="t1B9YMJ-ZMOQlbmvHbIg" version="15.8.2" type="github">
   <diagram id="6I0OCvxSQrVGMHxT2VVA" name="Page-1">
     <mxGraphModel dx="1790" dy="5104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -866,7 +866,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WTHkKFWmbe6p0qAKydqg-74" value="以partition为标记重试补偿" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="-3980" width="100" height="27.5" as="geometry" />
+          <mxGeometry x="140" y="-3990" width="100" height="27.5" as="geometry" />
         </mxCell>
         <mxCell id="WTHkKFWmbe6p0qAKydqg-77" value="智妍监控告警" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="93" y="-3750" width="80" height="40" as="geometry" />
