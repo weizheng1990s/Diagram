@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T13:28:43.331Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.3 Safari/605.1.15" etag="7hgk3YVKQIEzUMY6aZHI" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-15T13:33:47.038Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.3 Safari/605.1.15" etag="BExiN4asyK_0eSk-R1h_" version="15.8.2" type="github">
   <diagram id="6I0OCvxSQrVGMHxT2VVA" name="Page-1">
     <mxGraphModel dx="1914" dy="5144" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -684,7 +684,7 @@
           <mxGeometry x="-134" y="-4350" width="281.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="WTHkKFWmbe6p0qAKydqg-10" value="实例 n" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-139.04" y="-3720" width="278.5" height="60" as="geometry" />
+          <mxGeometry x="-140" y="-3640" width="278.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WTHkKFWmbe6p0qAKydqg-14" value="tdsql" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#ffe6cc;align=center;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="15" y="-3875" width="45" height="55" as="geometry" />
@@ -714,7 +714,7 @@
             <mxPoint x="-124" y="-4055" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-240" y="-4065" />
-              <mxPoint x="-240" y="-3690" />
+              <mxPoint x="-240" y="-3610" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -787,7 +787,7 @@
           <mxGeometry x="-103.92" y="-3830" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WTHkKFWmbe6p0qAKydqg-43" value="填充partition字段" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="1.5" y="-3920" width="100" height="17.5" as="geometry" />
+          <mxGeometry x="-10" y="-3910" width="100" height="17.5" as="geometry" />
         </mxCell>
         <mxCell id="WTHkKFWmbe6p0qAKydqg-53" value="实时填充" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-107.18" y="-3921.25" width="70" height="20" as="geometry" />
@@ -877,6 +877,31 @@
         </mxCell>
         <mxCell id="WTHkKFWmbe6p0qAKydqg-71" value="加工接口/模型" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="855.75" y="-4080" width="84.25" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WTHkKFWmbe6p0qAKydqg-72" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="-3830" as="sourcePoint" />
+            <mxPoint x="180" y="-4060" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="-3830" />
+              <mxPoint x="130" y="-4060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTHkKFWmbe6p0qAKydqg-74" value="重试补偿" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-3970" width="52.75" height="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WTHkKFWmbe6p0qAKydqg-77" value="智妍监控告警" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-2.5" y="-3760" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WTHkKFWmbe6p0qAKydqg-78" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WTHkKFWmbe6p0qAKydqg-14" target="WTHkKFWmbe6p0qAKydqg-77">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="-3760" as="sourcePoint" />
+            <mxPoint x="210" y="-3810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTHkKFWmbe6p0qAKydqg-79" value="僵尸商品、失败超阈值商品" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-25" y="-3790" width="150" height="17.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
